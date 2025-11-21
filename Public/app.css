@@ -38,9 +38,6 @@ header > div > button{
     padding: 1vh 1vw;
     border-radius: 5px;
 }
-main{
-    padding-inline: 10px;
-}
 main >.firstimage> img{
     height: auto;
     width: 80%;
@@ -78,4 +75,45 @@ p{
     display: flex;
     justify-content: center;
     gap: 40px;
+}
+.second-section{
+    padding: 50px  0;
+    background-color: #7071b31c;
+    display: grid;
+    justify-content: center;
+    gap: 40px;
+}
+.welcome{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+.welcome > h2{
+    display: flex;
+    justify-content: center;
+    color: #000000c8;
+}
+.parent-cards{
+    padding-inline: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+.card {
+    display: grid;
+    gap: 10px;
+}
+.card > h5 , svg{
+    display: grid;
+    justify-content: center;
+}
+.card > svg{
+    position: relative;
+    left: 45%;
+    background-color: #d0ebfe;
+    border-radius: 50%;
+    padding: 4px;
+    color: #0e3d5371;
 }
