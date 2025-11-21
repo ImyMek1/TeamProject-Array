@@ -35,6 +35,47 @@ header > div > button{
     color: white;
     text-transform: capitalize;
     border: none;
+    padding: 1vh 1vw;
+    border-radius: 5px;
+}
+main{
+    padding-inline: 10px;
+}
+main >.firstimage> img{
+    height: auto;
+    width: 80%;
+    padding-left: 20vw;
+}
+.child-sc{
+    display: grid;
+    justify-content: center;
+    gap: 15px;
+}
+.child-sc >h2{
+    display: flex;
+    justify-content: center;
+    color: #000000c8;
+}
+p{
+    color: #5c5d9bd8;
+    display: flex;
+    /* justify-content: center; */
+}
+.child-sc > button{
+    background-color: #8a53ef;
+    color: white;
+    border: none;
     padding: 1vh 3vw;
     border-radius: 5px;
+    margin-inline: 150px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}  
+.logos{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
